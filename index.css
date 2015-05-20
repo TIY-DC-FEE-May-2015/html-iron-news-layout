@@ -28,6 +28,8 @@ a {
 	color: black;
 }
 
+
+
 .container {
 	background-color: #eef0f3;
 	display: block;
@@ -60,11 +62,13 @@ a {
 	padding-left: 15px;
 }
 
+/* not needed
 .link {
 	font-color: black;
 	border-right: 1px black;
 	display: inline-block;
-}
+} */
+
 
 .header {
 	background-color: #8D90A1;
@@ -100,10 +104,22 @@ a {
 }
 
 .more {
-	padding: 20px 10px;
+	padding: 17px 31px;
 
 }
 
+.footer {
+	color: gray;
+	text-align: center;	
+	padding: 14px;
+}
+
+/* not needed
 .bottom-links {
 	font-size: 10px;
+} */
+
+
+.search {
+	padding-top: 14px;
 }
