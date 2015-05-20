@@ -20,6 +20,7 @@ li {
 	font-weight: 200;
 	position: relative;
 	padding-top: 5px;
+	margin-left: -18px;
 }
 
 a {
@@ -28,12 +29,16 @@ a {
 }
 
 .container {
-	background-color: #f6f6ef;
+	background-color: #eef0f3;
 	display: block;
 	margin: 8px 65px;
 	font-family: verdana, geneva, sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 	vertical-align: middle;
+}
+
+.list {
+	border-bottom: solid gray 2px;
 }
 
 .row {
@@ -62,15 +67,43 @@ a {
 }
 
 .header {
-	background-color: #ff6600;
-	color: black;
+	background-color: #8D90A1;
+	color: white;
 	margin: 0;
-	font-weight: bold;
-
+	display: inline-block;
+	width: 100%;
+	position: relative;
 }
 
 .logo {
-	border: solid black 1px;
-	padding: 5px;
+	text-decoration: bold;
+	border: solid white 1px;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	text-align: center;
+	padding-top: 1px;
+	margin:3px 0px 3px 5px;
 }
 
+.headline {
+	font-weight: bold;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.login {
+	display: inline-block;
+	position: absolute;
+	right: 8px;
+	top: 4px;
+}
+
+.more {
+	padding: 20px 10px;
+
+}
+
+.bottom-links {
+	font-size: 10px;
+}
