@@ -20,7 +20,7 @@ li {
 	font-weight: 200;
 	position: relative;
 	padding-top: 5px;
-	margin-left: -18px;
+	margin-left: -9px;
 }
 
 a {
@@ -60,6 +60,14 @@ a {
 	display: inline-block;
 	font-size: 9px;
 	padding-left: 15px;
+}
+
+.meta a {
+	color: #828282;
+}
+
+.meta a:hover {
+	text-decoration: underline;
 }
 
 /* not needed
@@ -104,7 +112,7 @@ a {
 }
 
 .more {
-	padding: 17px 31px;
+	padding: 17px 40px;
 
 }
 
