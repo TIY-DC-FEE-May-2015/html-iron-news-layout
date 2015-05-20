@@ -1,0 +1,133 @@
+* {
+	margin: 0px;
+	padding: 0px
+	box-sizing: border-box;
+}
+
+
+
+/*
+.tri {
+	display: inline-block;
+	background-image: url("grayarrow.gif"); 
+	background-size: cover;
+}*/
+
+
+
+li {
+	color: #828282;
+	font-weight: 200;
+	position: relative;
+	padding-top: 5px;
+	margin-left: -9px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.container {
+	background-color: #eef0f3;
+	display: block;
+	margin: 8px 65px;
+	font-family: verdana, geneva, sans-serif;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+.list {
+	border-bottom: solid gray 2px;
+}
+
+.row {
+	margin-left: -5px;
+}
+
+.name {
+	display: inline-block;
+}
+
+.url {
+	display: inline-block;
+	font-size: 10px;
+}
+
+.meta {
+	display: inline-block;
+	font-size: 9px;
+	padding-left: 15px;
+}
+
+.meta a {
+	color: #828282;
+}
+
+.meta a:hover {
+	text-decoration: underline;
+}
+
+/* not needed
+.link {
+	font-color: black;
+	border-right: 1px black;
+	display: inline-block;
+} */
+
+
+.header {
+	background-color: #8D90A1;
+	color: white;
+	margin: 0;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+.logo {
+	text-decoration: bold;
+	border: solid white 1px;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	text-align: center;
+	padding-top: 1px;
+	margin:3px 0px 3px 5px;
+}
+
+.headline {
+	font-weight: bold;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.login {
+	display: inline-block;
+	position: absolute;
+	right: 8px;
+	top: 4px;
+}
+
+.more {
+	padding: 17px 40px;
+
+}
+
+.footer {
+	color: gray;
+	text-align: center;	
+	padding: 14px;
+}
+
+/* not needed
+.bottom-links {
+	font-size: 10px;
+} */
+
+
+.search {
+	padding-top: 14px;
+}
